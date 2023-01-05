@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Mapa
 {
-    public partial class Form1 : Form
+    public partial class FormMapa : Form
     {
-        public Form1()
+        public FormMapa()
         {
             InitializeComponent();
+        }
+
+        private void buttonCargar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
