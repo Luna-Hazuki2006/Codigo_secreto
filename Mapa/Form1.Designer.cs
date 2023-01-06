@@ -51,9 +51,8 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 82.7044F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 17.2956F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(713, 319);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -81,7 +80,7 @@
             this.gMapControl.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMapControl.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMapControl.ShowTileGridLines = false;
-            this.gMapControl.Size = new System.Drawing.Size(525, 253);
+            this.gMapControl.Size = new System.Drawing.Size(525, 309);
             this.gMapControl.TabIndex = 0;
             this.gMapControl.Zoom = 0D;
             // 
@@ -104,14 +103,14 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(164, 253);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(164, 309);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // labelLatitud
             // 
             this.labelLatitud.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelLatitud.AutoSize = true;
-            this.labelLatitud.Location = new System.Drawing.Point(3, 13);
+            this.labelLatitud.Location = new System.Drawing.Point(3, 19);
             this.labelLatitud.Name = "labelLatitud";
             this.labelLatitud.Size = new System.Drawing.Size(78, 23);
             this.labelLatitud.TabIndex = 0;
@@ -121,7 +120,7 @@
             // 
             this.labelLongitud.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.labelLongitud.AutoSize = true;
-            this.labelLongitud.Location = new System.Drawing.Point(3, 113);
+            this.labelLongitud.Location = new System.Drawing.Point(3, 141);
             this.labelLongitud.Name = "labelLongitud";
             this.labelLongitud.Size = new System.Drawing.Size(94, 23);
             this.labelLongitud.TabIndex = 1;
@@ -131,7 +130,7 @@
             // 
             this.buttonCargar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.buttonCargar.BackColor = System.Drawing.Color.Lavender;
-            this.buttonCargar.Location = new System.Drawing.Point(16, 207);
+            this.buttonCargar.Location = new System.Drawing.Point(16, 257);
             this.buttonCargar.Name = "buttonCargar";
             this.buttonCargar.Size = new System.Drawing.Size(131, 38);
             this.buttonCargar.TabIndex = 2;
@@ -143,7 +142,7 @@
             // 
             this.textBoxLatitud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxLatitud.BackColor = System.Drawing.Color.SeaShell;
-            this.textBoxLatitud.Location = new System.Drawing.Point(3, 59);
+            this.textBoxLatitud.Location = new System.Drawing.Point(3, 76);
             this.textBoxLatitud.Name = "textBoxLatitud";
             this.textBoxLatitud.Size = new System.Drawing.Size(158, 31);
             this.textBoxLatitud.TabIndex = 3;
@@ -152,7 +151,7 @@
             // 
             this.textBoxLongitud.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxLongitud.BackColor = System.Drawing.Color.SeaShell;
-            this.textBoxLongitud.Location = new System.Drawing.Point(3, 159);
+            this.textBoxLongitud.Location = new System.Drawing.Point(3, 198);
             this.textBoxLongitud.Name = "textBoxLongitud";
             this.textBoxLongitud.Size = new System.Drawing.Size(158, 31);
             this.textBoxLongitud.TabIndex = 4;
